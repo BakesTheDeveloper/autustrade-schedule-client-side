@@ -173,7 +173,7 @@ async function submitAppointment() {
     };
     
     try {
-        const API_URL = 'https://autustrade-schedule-admin-side.onrender.com';
+        const API_URL = 'https://autustrade-schedule-admin-side.onrender.com/api/appointments';
         
         const response = await fetch(API_URL, {
             method: 'POST',
